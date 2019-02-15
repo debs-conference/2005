@@ -1,0 +1,239 @@
+body {
+	font: normal 10pt tahoma, Arial, Helvetica, sans-serif;
+
+	margin: 0px;	
+}
+
+/* Tweaking the paragraph format to allow for padding. */
+p {
+	font: normal 10pt tahoma, Arial, Helvetica, sans-serif;
+	padding-left: 15px;
+	padding-right: 15px;
+	}
+	
+div {
+	font: normal 10pt tahoma, Arial, Helvetica, sans-serif;
+	padding-left: 15px;
+	padding-right: 15px;
+	}
+
+dt {
+	 padding-left: 15px;
+	 font: bold 12pt tahoma, Arial, Helvetica, sans-serif;
+	 }
+	 
+li {
+	font: normal 10pt tahoma, Arial, Helvetica, sans-serif;
+}
+/****************************************************************************/	 
+/* LINK STUFF */
+/****************************************************************************/	 
+
+/* Text size/color etc. of links  */
+/* Want all my links to be black. */
+a {
+	background-color: transparent;
+	color: black;
+	}
+	
+a:link { 
+	background-color: transparent;
+	color: black; 
+	}
+	
+a:visited { 
+	background-color: transparent;
+	color: black; 
+	}
+	
+a:hover {
+	background-color: transparent;
+	color: Navy;
+}
+
+/* Instead of just using the a tag (because that would affect the 
+   appearance of EVERY hyperlink, I'm defining a class called .aSpecial */
+/* a { font: bold 14pt verdana; text-decoration: none; } */
+
+.aSpecial {
+	font: bold 12pt tahoma, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	background-color: transparent;
+	
+}
+		
+/* and a smaller version */
+.aSpecial2 {
+	font: 10pt tahoma, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	border : none;
+	background-color: transparent;
+	padding-left: 15px;
+}
+
+/* Thought about putting a box around the link, to simulate buttons.
+    Unfortunately, the box is only as big as the name of the link.  */	
+.aBox{
+	font-weight : bold;
+	font-family : tahoma, Arial, Helvetica, sans-serif;
+	font-size : medium;
+	font-style : normal;
+	border : thin outset;
+	background-color : #C38EC7;
+	color: black;
+	margin : 5pt;
+	padding : 5pt;
+	text-align : justify;
+}
+
+
+/****************************************************************************/	 
+/* HEADERS STUFF */
+/****************************************************************************/	 
+		
+/* Defining the headers. */
+h1 {
+	font-size: 22pt;
+	font-weight: bold;
+	font-family: tahoma, Arial, Helvetica, sans-serif;
+	color: black;
+	background-color: transparent;
+	text-align: center;
+} 
+h2 {
+	font-size: 18pt;
+	font-weight: bold;
+	font-family: tahoma, Arial, Helvetica, sans-serif;
+	color: navy;
+	background-color: transparent;
+} 
+h3 {
+	font-size: 18pt;
+	font-weight: normal;
+	font-family: tahoma, Arial, Helvetica, sans-serif;
+	color: navy;
+	background-color: transparent;
+}
+h4 {
+	font-size: 16pt;
+	font-weight: normal;
+	font-family: tahoma, Arial, Helvetica, sans-serif;
+	color: navy;
+	background-color: transparent;
+} 
+h5 {
+	font-size: 14pt;
+	font-weight: normal;
+	font-family: tahoma, Arial, Helvetica, sans-serif;
+	color: navy;
+	background-color: transparent;
+	text-decoration: none;
+	padding-left: 15px;
+}
+h6 {
+	font-size: 12pt;
+	font-weight: normal;
+	font-family: tahoma, Arial, Helvetica, sans-serif;
+	color: black;
+	background-color: transparent;
+	text-decoration: underline;
+	padding-left: 15px;
+}
+
+/****************************************************************************/	 
+/* CLASS STUFF */
+/****************************************************************************/	 
+/* <div> starts a division, which I can further refine by using class = x
+   where x is one of the classes listed here.
+	 */
+
+/* Amount of empty space to the left of the links on the left side. Add more 
+   or less for effect. */
+.dopad1 { padding-left: 15px; padding-right:15px }
+
+/* Amount of empty space around text in main big section of table */
+.dopad2 { padding: 15px; }
+
+/* More padding for indenting */
+.dopad3 { padding-left:30px; padding-right:30px }
+
+/* Change the color blue in the next two lines to make the top and left sides 
+   of the table a different color! */ 
+.bk1 {
+	background-color: #66CCFF;
+	color: black; /*need for W3C*/
+}
+.bk2 {
+	background-color: #66ccff;
+	color: black; /*need for W3C*/
+	width: 85%;
+}
+/* CC99FF */
+
+/* Change the color white in the next line to make large section of table 
+   a different color! */ 
+.bk3 { 
+	background-color: white; 
+	color: black; /*need for W3C*/
+	}
+
+/* Make the text smaller with no underlines */
+.fontSmall { 
+		font-size: 9pt;
+		font-style: normal; 
+		font-family: tahoma, Arial, Helvetica, sans-serif; 
+		text-decoration:none;
+		}
+		
+.fontMedium { 
+		font-size: 10pt;
+		font-style: normal; 
+		font-family: tahoma, Arial, Helvetica, sans-serif; 
+		}
+		
+.noline {
+	  text-decoration:none;
+		}	
+		
+.myline {
+	color: #008080;
+	width: 60%;
+	}
+	
+.mylinelong {
+	color: #008080;
+	}
+	
+	
+.quote {
+	font-family: serif;
+	font-style: italic;
+}
+
+.quoteCenter {
+	font-family : serif;
+
+	text-align : center;
+	font-style : italic;
+}
+	
+.quoteCenterSmall{
+	font-family : serif;
+	font-size : x-small;
+	text-align : center;
+	font-style : italic;
+} 
+
+.yellow {
+	background-color: #ff9;
+	padding: 10px;
+}
+
+.note {
+	font-style: normal;
+	font-family: tahoma, Arial, Helvetica, sans-serif;
+	background-color: #FFFF99;
+	padding: 10px;
+	margin: 0px 100px;
+	border: 1px solid #000000;
+		}

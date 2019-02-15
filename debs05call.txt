@@ -1,0 +1,120 @@
+
+                        Call for Papers
+
+4th International Workshop on Distributed Event-Based Systems (DEBS '05)
+           (http://www.cs.queensu.ca/~dingel/debs05)
+
+                 Columbus, Ohio, June 10, 2005
+
+GOAL
+The purpose of this workshop is to bring together people from academia
+and industry interested in the foundations, implementation, and
+application of all aspects of event-based middleware, from traditional
+topic-based and content-based publish-subscribe, to event correlation,
+streaming queries, mediations, and systems integration. We seek
+contributions from practitioners in industry and government, as well
+as from academic and industrial researchers.
+
+WORKSHOP THEME
+Event-based systems are those in which information provided by
+producers is distributed in a timely manner to interested consumers
+via messaging middleware. These systems are seeing increasingly widespread
+use, in applications ranging from time-critical systems, system management
+and control, to e-commerce. Publish-subscribe services have been incorporated
+into standards such as CORBA and JMS, and into commercial systems, such as
+offerings of IBM and TIBCO.
+
+Traditional event-based systems support subscriptions based on topics,
+or based on filter predicates on message content; the middleware
+service delivers copies of published messages to some subset of all
+subscribers. An emerging new area of interest is the extension of
+these services to include transformation, aggregation, and correlation
+of events.
+
+Many applications of this nature are built today by combining
+publish-subscribe systems with other client-side systems to perform
+the additional computation. The interest in these problems overlaps
+with other system areas -- specifically streaming systems, continuous
+query and continuous view update systems in databases, correlation
+engines, and system monitoring and management tools. It is our goal to
+provide cross-fertilization between researchers and practitioners in
+these areas with researchers and practitioners in traditional
+event-based middleware.
+
+TOPICS
+Topics include, but are not limited to:
+   * Event-based models and paradigms
+   * Middleware infrastructure
+   * Integration
+   * User experience and requirements
+For more details, see the workshop web page at
+www.cs.queensu.ca/~dingel/debs05
+
+SUBMISSION INSTRUCTIONS
+Papers do not have to be based on complete and comprehensive works. In
+fact, we welcome position papers, requirements for real-world
+applications, as well as papers based on preliminary results, provided
+that they are forward-looking and that they remain well-argued and
+justified in terms of existing work.
+
+Submissions must conform to the ICDCS formatting guidelines (go to
+http://www.cse.ohio-state.edu/icdcs05/ICDCS05submissions.html and follow
+the instructions for "Formatting your Paper" but not for "Submitting
+your Paper") and must not exceed six (6) pages, including all text,
+references, appendices, and figures. Submissions must be in Portable
+Document Format (PDF). Accepted papers will be published in the ICDCS
+workshop proceedings by the IEEE.
+
+Please submit your paper by e-mail to robstrom@us.ibm.com. Your
+submission e-mail must contain the PDF file as a MIME attachment. The
+sender of the submission will be the contact person, unless otherwise
+requested in the submission.
+
+Authors of accepted papers are expected to participate in the workshop.
+
+LOCATION
+The workshop will be held in Columbus, Ohio as a co-located workshop
+of the 25th International Conference on Distributed Computing Systems
+ICDCS 2005 (http://www.cse.ohio-state.edu/icdcs05/).
+
+DATES
+Deadline for paper submission                   24 January 2005
+Decision to paper authors                       21 February 2005
+Final version of accepted papers due             1 March 2005
+DEBS 2005 workshop and on-site registration     10 June 2005
+
+CO-CHAIRS
+Juergen Dingel
+School of Computing
+Queen's University
+Kingston, Ontario, Canada, K7L 3N6
+phone: (613) 533-3071
+email: dingel@cs.queensu.ca
+
+Rob Strom
+IBM Thomas J. Watson Research Center
+Yorktown Heights, NY, USA, 10598
+phone: (914) 784-7641
+email: robstrom@us.ibm.com
+
+PROGRAM COMMITTEE
+Jean Bacon, Cambridge University, UK
+Jonathan Bosloy, Solace Systems, Canada
+Antonio Carzaniga, University of Lugano, Switzerland and University of Colorado, USA
+Ugur Cetintemel, Brown University, USA
+Gianpaolo Cugola, Politecnico di Milano, Italy
+Pascal Fenkam, Vienna University of Technology, Austria
+Ludger Fiege, Darmstadt University of Technology, Germany
+Harald Gall, University of Zurich, Switzerland
+Rachid Guerraoui, EPFL, Switzerland
+Annika Hinze, University of Waikato, New Zealand
+Paola Inverardi, University of L'Aquila, Italy
+Hans-Arno Jacobsen, University of Toronto, Canada
+Mehdi Jazayeri, University of Lugano and Vienna University of Technology, Austria
+Jean-Phillipe Martin-Flatin, University of Quebec in Montreal, Canada
+Gero Muehl, Berlin University of Technology, Germany
+Peter Pietzuch, Harvard University, USA
+Robby, Kansas State University, USA
+Joe Sventek, University of Glasgow, Scotland
+Peter Triantafillou, University of Patras, Greece
+Robert van Renesse, Cornell University, USA
